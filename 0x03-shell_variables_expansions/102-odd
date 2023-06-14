@@ -1,2 +1,2 @@
 #!/bin/bash
-tr '\n' '\t' | tr -s '\t' |cut -f 2
+grep "^[0-9]*[13579]" | cut -b 8-
